@@ -1,2 +1,2 @@
 # ketchupBottle_Detetction
-trained network for heinz ketchap bottle detection using tensoflow  
+CNN Network to detect ketchap bottle, My Face and my beer bottle 
