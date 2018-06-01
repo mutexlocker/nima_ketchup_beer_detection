@@ -1,1 +1,2 @@
-# nima_ketchup_beer_detection
+# ketchupBottle_Detetction
+trained network for heinz ketchap bottle detection using tensoflow  
