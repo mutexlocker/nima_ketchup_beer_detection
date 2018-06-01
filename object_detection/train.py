@@ -87,9 +87,9 @@ FLAGS = flags.FLAGS
 
 def main(_):
   print(os.getcwd())
-  os.environ['CUDA_VISIBLE_DEVICES'] = ''
+  #os.environ['CUDA_VISIBLE_DEVICES'] = ''
   FLAGS.train_dir = 'training/'
-  FLAGS.pipeline_config_path = 'nima_ketchup_beer_detection/object_detection/training/ssd_mobilenet_v1_pets.config'
+  FLAGS.pipeline_config_path = 'training/ssd_mobilenet_v1_pets.config'
   assert FLAGS.train_dir, '`train_dir` is missing.'
   if FLAGS.task == 0: tf.gfile.MakeDirs(FLAGS.train_dir)
   if FLAGS.pipeline_config_path:
